@@ -197,4 +197,4 @@ Focuses on patient engagement and retention.
 # Links
 ## 🔗 Live Dashboard
 
-📊 [Live Dashboard](https://app.powerbi.com/links/XfMTfAgN9c?ctid=ec1555de-9f00-4459-9007-514764470207&pbi_source=linkShare)
+📊 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWU3NDYzOWItYmQ1ZC00YzhmLWI2YmEtYzE5ZjA4MmY5OWViIiwidCI6ImVjMTU1NWRlLTlmMDAtNDQ1OS05MDA3LTUxNDc2NDQ3MDIwNyJ9)
