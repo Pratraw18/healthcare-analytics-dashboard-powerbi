@@ -37,92 +37,16 @@ The goal was to transform raw healthcare data into **actionable insights** that 
 
 ## 🗂️ Data Overview
 
+The dataset used in this project is sourced from Maven Analytics. 
+It is fully accessible on the Codebasics website and can be viewed via the following link: https://mavenanalytics.io/data-playground/hospital-patient-records
+
 The dataset consists of structured healthcare data capturing **patient demographics, encounters, procedures, payer information, and hospital organizations**.  
 It enables analysis of **patient utilization, cost distribution, and healthcare service patterns**.
 
-### 1. Patients
-
-Contains demographic and personal information of patients.
-
-- **patient_id**: Unique identifier for each patient  
-- **first_name**: Patient’s first name  
-- **last_name**: Patient’s last name  
-- **gender**: Gender of the patient  
-- **birth_date**: Date of birth  
-- **death_date**: Date of death (if applicable)  
-- **age**: Age of the patient  
-- **marital_status**: Marital status of the patient  
-- **race**: Race classification  
-- **ethnicity**: Ethnicity group  
-- **city**: City of residence  
-- **state**: State of residence  
-- **zip_code**: ZIP code  
-
-
-
-### 2. Encounters
-
-Captures detailed records of patient visits and healthcare interactions.
-
-- **encounter_id**: Unique identifier for each encounter  
-- **patient_id**: Reference to the patient  
-- **organization_id**: Hospital or organization identifier  
-- **payer_id**: Insurance or payer identifier  
-- **encounter_class**: Type of encounter (Ambulatory, Emergency, Inpatient, etc.)  
-- **start_date**: Start date of the encounter  
-- **end_date**: End date of the encounter  
-- **duration_hours**: Duration of visit in hours  
-- **base_encounter_cost**: Base cost of the encounter  
-- **total_claim_cost**: Total billed cost  
-- **payer_coverage**: Amount covered by payer  
-- **reason_code**: Code representing reason for visit  
-- **reason_description**: Description of the reason  
-
-
-
-### 3. Procedures
-
-Contains details of medical procedures performed during encounters.
-
-- **patient_id**: Reference to the patient  
-- **encounter_id**: Associated encounter ID  
-- **procedure_code**: Code of the medical procedure  
-- **procedure_description**: Description of the procedure  
-- **base_cost**: Cost of the procedure  
-- **reason_code**: Code for procedure reason  
-- **reason_description**: Description of procedure reason  
-
-
-### 4. Payers
-
-Stores information about insurance providers and payers.
-
-- **payer_id**: Unique identifier for the payer  
-- **payer_name**: Name of the insurance provider  
-- **city**: City of payer headquarters  
-- **state_headquartered**: State of headquarters  
-- **zip_code**: ZIP code  
-- **phone**: Contact number  
-
-
-### 5. Organizations
-
-Contains details about healthcare institutions and facilities.
-
-- **id**: Unique identifier for the organization  
-- **name**: Name of the hospital or organization  
-- **city**: City location  
-- **state**: State location  
-- **zip_code**: ZIP code  
-
----
-
-## 🛠️ Tech Stack
-
-- **Excel** – Data extraction and initial exploration  
-- **Python (Jupyter Notebook)** – Data cleaning and preprocessing  
-- **SQL** – Data transformation and creation of analytical views  
-- **Power BI** – Data modeling, DAX calculations, and dashboard visualization  
+⚙️ Data Usage Approach
+Data cleaning and preprocessing done using Python (Jupyter Notebook)
+SQL used to create structured analytical views
+Power BI used for data modeling and visualization
 
 ---
 
