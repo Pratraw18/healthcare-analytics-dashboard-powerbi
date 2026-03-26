@@ -2,9 +2,6 @@
 
 # 🏥 Massachusetts General Hospital Analytics Dashboard
 
-An interactive Power BI dashboard designed to analyze **patient utilization, financial performance, and patient behavior** in a healthcare setting.
-
----
 
 ## 📌 Project Overview
 
@@ -43,8 +40,6 @@ The goal was to transform raw healthcare data into **actionable insights** that 
 The dataset consists of structured healthcare data capturing **patient demographics, encounters, procedures, payer information, and hospital organizations**.  
 It enables analysis of **patient utilization, cost distribution, and healthcare service patterns**.
 
----
-
 ### 1. Patients
 
 Contains demographic and personal information of patients.
@@ -63,7 +58,7 @@ Contains demographic and personal information of patients.
 - **state**: State of residence  
 - **zip_code**: ZIP code  
 
----
+
 
 ### 2. Encounters
 
@@ -83,7 +78,7 @@ Captures detailed records of patient visits and healthcare interactions.
 - **reason_code**: Code representing reason for visit  
 - **reason_description**: Description of the reason  
 
----
+
 
 ### 3. Procedures
 
@@ -97,7 +92,6 @@ Contains details of medical procedures performed during encounters.
 - **reason_code**: Code for procedure reason  
 - **reason_description**: Description of procedure reason  
 
----
 
 ### 4. Payers
 
@@ -110,7 +104,6 @@ Stores information about insurance providers and payers.
 - **zip_code**: ZIP code  
 - **phone**: Contact number  
 
----
 
 ### 5. Organizations
 
